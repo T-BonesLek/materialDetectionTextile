@@ -1,0 +1,28 @@
+[3.548s] Invoking command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/src/py_pubsub': PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/py_pubsub/prefix_override:/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/py_pubsub/build install --record /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/py_pubsub/install.log --single-version-externally-managed
+[5.618s] running egg_info
+[5.641s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[5.664s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[5.685s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[5.701s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[5.712s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[5.799s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.940s] adding license file 'LICENSE'
+[5.989s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.998s] running build
+[6.001s] running build_py
+[6.043s] copying py_pubsub/publisher_member_function.py -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/py_pubsub/build/lib/py_pubsub
+[6.151s] running install
+[6.153s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.155s]   warnings.warn(
+[6.157s] running install_lib
+[6.252s] copying /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[6.456s] byte-compiling /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[6.637s] running install_data
+[6.700s] running install_egg_info
+[6.729s] removing '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[6.890s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[7.674s] running install_scripts
+[7.837s] Installing listener script to /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/py_pubsub
+[7.878s] Installing talker script to /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/py_pubsub
+[7.906s] writing list of installed files to '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/py_pubsub/install.log'
+[7.978s] Invoked command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/src/py_pubsub' returned '0': PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/py_pubsub/prefix_override:/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/py_pubsub/build install --record /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/py_pubsub/install.log --single-version-externally-managed

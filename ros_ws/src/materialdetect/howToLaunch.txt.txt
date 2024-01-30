@@ -1,0 +1,9 @@
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectionTextile/ros_ws$  source /opt/ros/humble/setup.bash 
+
+colcon build
+
+source ~/.bashrc 
+
+source install/setup.bash 
+
+ros2 launch materialdetect matdetect.launch.py 
