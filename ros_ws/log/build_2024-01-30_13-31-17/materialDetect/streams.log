@@ -1,8 +1,0 @@
-[0.289s] Invoking command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/materialDetect': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages /usr/bin/cmake /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/src/materialdetect -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/materialDetect
-[0.459s] [31mCMake Error at CMakeLists.txt:13 (ament_package):
-[0.463s]   Unknown CMake command "ament_package".
-[0.466s] 
-[0.469s] [0m
-[0.473s] -- Configuring incomplete, errors occurred!
-[0.475s] See also "/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/materialDetect/CMakeFiles/CMakeOutput.log".
-[0.515s] Invoked command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/build/materialDetect' returned '1': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages /usr/bin/cmake /mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/src/materialdetect -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialDetectionTextile/ros_ws/install/materialDetect
