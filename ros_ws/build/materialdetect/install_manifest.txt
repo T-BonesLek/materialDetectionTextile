@@ -1,0 +1,16 @@
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect//launch/matdetect.launch.py
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/ament_index/resource_index/package_run_dependencies/materialdetect
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/ament_index/resource_index/parent_prefix_path/materialdetect
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/environment/ament_prefix_path.sh
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/environment/ament_prefix_path.dsv
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/environment/path.sh
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/environment/path.dsv
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/local_setup.bash
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/local_setup.sh
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/local_setup.zsh
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/local_setup.dsv
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.dsv
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/ament_index/resource_index/packages/materialdetect
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/cmake/materialdetectConfig.cmake
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/cmake/materialdetectConfig-version.cmake
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.xml

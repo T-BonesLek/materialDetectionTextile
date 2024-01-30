@@ -1,0 +1,192 @@
+[2.295s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.296s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe48793e590>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe48793cca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe48793cca0>>)
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.437s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws'
+[2.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.545s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/materialdetect) by extensions ['ignore', 'ignore_ament_install']
+[2.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/materialdetect) by extension 'ignore'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/materialdetect) by extension 'ignore_ament_install'
+[2.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/materialdetect) by extensions ['colcon_pkg']
+[2.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/materialdetect) by extension 'colcon_pkg'
+[2.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/materialdetect) by extensions ['colcon_meta']
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/materialdetect) by extension 'colcon_meta'
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/materialdetect) by extensions ['ros']
+[2.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/materialdetect) by extension 'ros'
+[2.699s] DEBUG:colcon.colcon_core.package_identification:Package 'src/materialdetect' with type 'ros.ament_cmake' and name 'materialdetect'
+[2.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[2.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[2.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[2.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[2.780s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[2.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.988s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.048s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[3.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.232s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.234s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[3.235s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[3.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[3.237s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[3.237s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.238s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub', 'merge_install': False, 'path': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[3.270s] Level 5:colcon.colcon_core.verb:set package 'materialdetect' build argument 'cmake_args' from command line to 'None'
+[3.271s] Level 5:colcon.colcon_core.verb:set package 'materialdetect' build argument 'cmake_target' from command line to 'None'
+[3.272s] Level 5:colcon.colcon_core.verb:set package 'materialdetect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.272s] Level 5:colcon.colcon_core.verb:set package 'materialdetect' build argument 'cmake_clean_cache' from command line to 'False'
+[3.273s] Level 5:colcon.colcon_core.verb:set package 'materialdetect' build argument 'cmake_clean_first' from command line to 'False'
+[3.274s] Level 5:colcon.colcon_core.verb:set package 'materialdetect' build argument 'cmake_force_configure' from command line to 'False'
+[3.274s] Level 5:colcon.colcon_core.verb:set package 'materialdetect' build argument 'ament_cmake_args' from command line to 'None'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'materialdetect' build argument 'catkin_cmake_args' from command line to 'None'
+[3.276s] Level 5:colcon.colcon_core.verb:set package 'materialdetect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.277s] DEBUG:colcon.colcon_core.verb:Building package 'materialdetect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect', 'merge_install': False, 'path': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/materialdetect', 'symlink_install': False, 'test_result_base': None}
+[3.304s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.334s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/py_pubsub' with build type 'ament_python'
+[3.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[3.387s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[3.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[3.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[3.594s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.417s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/py_pubsub'
+[4.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/py_pubsub': PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/prefix_override:/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build install --record /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/install.log --single-version-externally-managed
+[11.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/py_pubsub' returned '0': PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/prefix_override:/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build install --record /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/install.log --single-version-externally-managed
+[11.663s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub' for CMake module files
+[11.809s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub' for CMake config files
+[12.033s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib'
+[12.042s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/bin'
+[12.045s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[12.050s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages'
+[12.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[12.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[12.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[12.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[12.215s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/bin'
+[12.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[12.249s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[12.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[12.323s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[12.354s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[12.403s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[12.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[12.452s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/materialdetect' with build type 'ament_cmake'
+[12.453s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/materialdetect'
+[12.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/materialdetect -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect
+[18.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/materialdetect -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect
+[18.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect -- -j4 -l4
+[18.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect -- -j4 -l4
+[19.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect
+[22.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(materialdetect)
+[22.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect
+[22.302s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect' for CMake module files
+[22.506s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect' for CMake config files
+[22.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('materialdetect', 'cmake_prefix_path')
+[22.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/hook/cmake_prefix_path.ps1'
+[22.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/hook/cmake_prefix_path.dsv'
+[22.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/hook/cmake_prefix_path.sh'
+[22.816s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/bin'
+[22.818s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/lib/pkgconfig/materialdetect.pc'
+[22.821s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/lib/python3.10/site-packages'
+[22.824s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/bin'
+[22.862s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.ps1'
+[22.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.dsv'
+[22.931s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.sh'
+[22.970s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.bash'
+[23.005s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.zsh'
+[23.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/colcon-core/packages/materialdetect)
+[23.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(materialdetect)
+[23.206s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect' for CMake module files
+[23.523s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect' for CMake config files
+[23.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('materialdetect', 'cmake_prefix_path')
+[23.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/hook/cmake_prefix_path.ps1'
+[23.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/hook/cmake_prefix_path.dsv'
+[23.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/hook/cmake_prefix_path.sh'
+[23.845s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/bin'
+[23.848s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/lib/pkgconfig/materialdetect.pc'
+[23.851s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/lib/python3.10/site-packages'
+[23.855s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/bin'
+[23.898s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.ps1'
+[23.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.dsv'
+[23.960s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.sh'
+[24.012s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.bash'
+[24.037s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/materialdetect/package.zsh'
+[24.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect/share/colcon-core/packages/materialdetect)
+[24.101s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.104s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.224s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[24.224s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.225s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.226s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[24.227s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/local_setup.ps1'
+[24.283s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/_local_setup_util_ps1.py'
+[24.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/setup.ps1'
+[24.353s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/local_setup.sh'
+[24.366s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/_local_setup_util_sh.py'
+[24.389s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/setup.sh'
+[24.437s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/local_setup.bash'
+[24.453s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/setup.bash'
+[24.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/local_setup.zsh'
+[24.512s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/setup.zsh'

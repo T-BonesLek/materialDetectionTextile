@@ -1,0 +1,9 @@
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/uninstall.dir
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/materialdetect_uninstall.dir
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/test.dir
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/edit_cache.dir
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/list_install_components.dir
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/install.dir
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/install/local.dir
+/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/install/strip.dir

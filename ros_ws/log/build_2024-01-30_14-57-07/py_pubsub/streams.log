@@ -1,0 +1,25 @@
+[4.150s] Invoking command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/py_pubsub': PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/prefix_override:/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build install --record /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/install.log --single-version-externally-managed
+[6.071s] running egg_info
+[6.085s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[6.110s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[6.133s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[6.148s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[6.157s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[6.244s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.363s] adding license file 'LICENSE'
+[6.427s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[6.439s] running build
+[6.443s] running build_py
+[6.555s] running install
+[6.558s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.560s]   warnings.warn(
+[6.562s] running install_lib
+[6.950s] running install_data
+[7.023s] running install_egg_info
+[7.058s] removing '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[7.228s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[7.941s] running install_scripts
+[8.145s] Installing listener script to /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/py_pubsub
+[8.173s] Installing talker script to /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/py_pubsub
+[8.202s] writing list of installed files to '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/install.log'
+[8.281s] Invoked command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/py_pubsub' returned '0': PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/prefix_override:/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build install --record /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/install.log --single-version-externally-managed

@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.002160] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002961] (materialdetect) JobQueued: {'identifier': 'materialdetect', 'dependencies': OrderedDict([('py_pubsub', '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub')])}
+[0.004508] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.095819] (-) TimerEvent: {}
+[0.197423] (-) TimerEvent: {}
+[0.299158] (-) TimerEvent: {}
+[0.400215] (-) TimerEvent: {}
+[0.501115] (-) TimerEvent: {}
+[0.602042] (-) TimerEvent: {}
+[0.702997] (-) TimerEvent: {}
+[0.804167] (-) TimerEvent: {}
+[0.905964] (-) TimerEvent: {}
+[1.007472] (-) TimerEvent: {}
+[1.108623] (-) TimerEvent: {}
+[1.211664] (-) TimerEvent: {}
+[1.312693] (-) TimerEvent: {}
+[1.413612] (-) TimerEvent: {}
+[1.514684] (-) TimerEvent: {}
+[1.615744] (-) TimerEvent: {}
+[1.717232] (-) TimerEvent: {}
+[1.818595] (-) TimerEvent: {}
+[1.919770] (-) TimerEvent: {}
+[2.021002] (-) TimerEvent: {}
+[2.122042] (-) TimerEvent: {}
+[2.223250] (-) TimerEvent: {}
+[2.324148] (-) TimerEvent: {}
+[2.425119] (-) TimerEvent: {}
+[2.526031] (-) TimerEvent: {}
+[2.627017] (-) TimerEvent: {}
+[2.728057] (-) TimerEvent: {}
+[2.828922] (-) TimerEvent: {}
+[2.930098] (-) TimerEvent: {}
+[3.031418] (-) TimerEvent: {}
+[3.132456] (-) TimerEvent: {}
+[3.233603] (-) TimerEvent: {}
+[3.334742] (-) TimerEvent: {}
+[3.436566] (-) TimerEvent: {}
+[3.523618] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build', 'install', '--record', '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'texsort', 'GIT_ASKPASS': '/home/texsort/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'HOME': '/home/texsort', 'OLDPWD': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile', 'TERM_PROGRAM_VERSION': '1.85.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fb07d2d8-fda1-42d8-846b-e324697b6a8b.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/texsort/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/texsort/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'texsort', 'NAME': 'DESKTOP-1DSHE68', 'WSL_INTEROP': '/run/WSL/423_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/home/texsort/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/home/texsort/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static:/mnt/c/Users/TexSort/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Users/TexSort/AppData/Local/GitHubDesktop/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-69f7bd0b4b.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up', 'PYTHONPATH': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/prefix_override:/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages:'}, 'shell': False}
+[3.552565] (-) TimerEvent: {}
+[3.653762] (-) TimerEvent: {}
+[3.754948] (-) TimerEvent: {}
+[3.856036] (-) TimerEvent: {}
+[3.957152] (-) TimerEvent: {}
+[4.058384] (-) TimerEvent: {}
+[4.159539] (-) TimerEvent: {}
+[4.260762] (-) TimerEvent: {}
+[4.361942] (-) TimerEvent: {}
+[4.463120] (-) TimerEvent: {}
+[4.564054] (-) TimerEvent: {}
+[4.665214] (-) TimerEvent: {}
+[4.766514] (-) TimerEvent: {}
+[4.867739] (-) TimerEvent: {}
+[4.995097] (-) TimerEvent: {}
+[5.096146] (-) TimerEvent: {}
+[5.197070] (-) TimerEvent: {}
+[5.298174] (-) TimerEvent: {}
+[5.399849] (-) TimerEvent: {}
+[5.439070] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[5.455893] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[5.466043] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[5.492373] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[5.500048] (-) TimerEvent: {}
+[5.506839] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[5.523520] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[5.537545] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[5.566122] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.600307] (-) TimerEvent: {}
+[5.624170] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.700549] (-) TimerEvent: {}
+[5.717081] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.779966] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.788499] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[5.792809] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[5.800720] (-) TimerEvent: {}
+[5.803352] (py_pubsub) StdoutLine: {'line': b'creating /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build\n'}
+[5.807337] (py_pubsub) StdoutLine: {'line': b'creating /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build/lib\n'}
+[5.814039] (py_pubsub) StdoutLine: {'line': b'creating /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[5.846004] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[5.900956] (-) TimerEvent: {}
+[5.906311] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[5.976599] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[6.001141] (-) TimerEvent: {}
+[6.007378] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[6.009515] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.012606] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.015169] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[6.082113] (py_pubsub) StdoutLine: {'line': b'creating /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[6.101374] (-) TimerEvent: {}
+[6.125780] (py_pubsub) StdoutLine: {'line': b'copying /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[6.201560] (-) TimerEvent: {}
+[6.225562] (py_pubsub) StdoutLine: {'line': b'copying /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[6.301809] (-) TimerEvent: {}
+[6.315443] (py_pubsub) StdoutLine: {'line': b'copying /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[6.402014] (-) TimerEvent: {}
+[6.409342] (py_pubsub) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[6.502212] (-) TimerEvent: {}
+[6.544721] (py_pubsub) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[6.602443] (-) TimerEvent: {}
+[6.677830] (py_pubsub) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[6.702722] (-) TimerEvent: {}
+[6.791842] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[6.802913] (-) TimerEvent: {}
+[6.808680] (py_pubsub) StdoutLine: {'line': b'creating /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/ament_index\n'}
+[6.815014] (py_pubsub) StdoutLine: {'line': b'creating /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[6.824006] (py_pubsub) StdoutLine: {'line': b'creating /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[6.862215] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[6.903151] (-) TimerEvent: {}
+[6.915854] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/share/py_pubsub\n'}
+[6.964542] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.002919] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[7.005464] (-) TimerEvent: {}
+[7.106545] (-) TimerEvent: {}
+[7.207693] (-) TimerEvent: {}
+[7.308770] (-) TimerEvent: {}
+[7.410070] (-) TimerEvent: {}
+[7.511094] (-) TimerEvent: {}
+[7.612142] (-) TimerEvent: {}
+[7.713190] (-) TimerEvent: {}
+[7.716413] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[7.813381] (-) TimerEvent: {}
+[7.905852] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.913610] (-) TimerEvent: {}
+[7.933464] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.983401] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/py_pubsub/install.log'\n"}
+[8.013815] (-) TimerEvent: {}
+[8.047479] (py_pubsub) CommandEnded: {'returncode': 0}
+[8.114126] (-) TimerEvent: {}
+[8.215530] (-) TimerEvent: {}
+[8.316774] (-) TimerEvent: {}
+[8.418436] (-) TimerEvent: {}
+[8.519935] (-) TimerEvent: {}
+[8.621150] (-) TimerEvent: {}
+[8.722355] (-) TimerEvent: {}
+[8.766577] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[8.807410] (materialdetect) JobStarted: {'identifier': 'materialdetect'}
+[8.822635] (-) TimerEvent: {}
+[8.923762] (-) TimerEvent: {}
+[9.013771] (materialdetect) JobProgress: {'identifier': 'materialdetect', 'progress': 'cmake'}
+[9.024004] (-) TimerEvent: {}
+[9.044566] (materialdetect) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/materialdetect', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect'], 'cwd': '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'texsort'), ('GIT_ASKPASS', '/home/texsort/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('HOME', '/home/texsort'), ('OLDPWD', '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fb07d2d8-fda1-42d8-846b-e324697b6a8b.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/texsort/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/texsort/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'texsort'), ('NAME', 'DESKTOP-1DSHE68'), ('WSL_INTEROP', '/run/WSL/423_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/texsort/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/home/texsort/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static:/mnt/c/Users/TexSort/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Users/TexSort/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-69f7bd0b4b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[9.124208] (-) TimerEvent: {}
+[9.225311] (-) TimerEvent: {}
+[9.326557] (-) TimerEvent: {}
+[9.427652] (-) TimerEvent: {}
+[9.528672] (-) TimerEvent: {}
+[9.629759] (-) TimerEvent: {}
+[9.730867] (-) TimerEvent: {}
+[9.832272] (-) TimerEvent: {}
+[9.933496] (-) TimerEvent: {}
+[10.034784] (-) TimerEvent: {}
+[10.043010] (materialdetect) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[10.135137] (-) TimerEvent: {}
+[10.236343] (-) TimerEvent: {}
+[10.337611] (-) TimerEvent: {}
+[10.438775] (-) TimerEvent: {}
+[10.539982] (-) TimerEvent: {}
+[10.641583] (-) TimerEvent: {}
+[10.742689] (-) TimerEvent: {}
+[10.843850] (-) TimerEvent: {}
+[10.944969] (-) TimerEvent: {}
+[11.046180] (-) TimerEvent: {}
+[11.147587] (materialdetect) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[11.149881] (-) TimerEvent: {}
+[11.250940] (-) TimerEvent: {}
+[11.351936] (-) TimerEvent: {}
+[11.453485] (-) TimerEvent: {}
+[11.554721] (-) TimerEvent: {}
+[11.619570] (materialdetect) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.655038] (-) TimerEvent: {}
+[11.756195] (-) TimerEvent: {}
+[11.857604] (-) TimerEvent: {}
+[11.958802] (-) TimerEvent: {}
+[12.059833] (-) TimerEvent: {}
+[12.160821] (-) TimerEvent: {}
+[12.262068] (-) TimerEvent: {}
+[12.363469] (-) TimerEvent: {}
+[12.464780] (-) TimerEvent: {}
+[12.565862] (-) TimerEvent: {}
+[12.667266] (-) TimerEvent: {}
+[12.768729] (-) TimerEvent: {}
+[12.870250] (-) TimerEvent: {}
+[12.971521] (-) TimerEvent: {}
+[12.992094] (materialdetect) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.061960] (materialdetect) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.064344] (materialdetect) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.066205] (materialdetect) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.071705] (-) TimerEvent: {}
+[13.172868] (-) TimerEvent: {}
+[13.219211] (materialdetect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.273122] (-) TimerEvent: {}
+[13.374475] (-) TimerEvent: {}
+[13.475788] (-) TimerEvent: {}
+[13.577249] (-) TimerEvent: {}
+[13.678745] (-) TimerEvent: {}
+[13.804327] (-) TimerEvent: {}
+[13.906165] (-) TimerEvent: {}
+[14.007557] (-) TimerEvent: {}
+[14.108721] (-) TimerEvent: {}
+[14.209901] (-) TimerEvent: {}
+[14.310931] (-) TimerEvent: {}
+[14.412327] (-) TimerEvent: {}
+[14.513555] (-) TimerEvent: {}
+[14.614981] (-) TimerEvent: {}
+[14.716097] (-) TimerEvent: {}
+[14.817162] (-) TimerEvent: {}
+[14.873050] (materialdetect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.917373] (-) TimerEvent: {}
+[14.925570] (materialdetect) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.928204] (materialdetect) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.930949] (materialdetect) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.017611] (-) TimerEvent: {}
+[15.118642] (-) TimerEvent: {}
+[15.220030] (-) TimerEvent: {}
+[15.321248] (-) TimerEvent: {}
+[15.422198] (-) TimerEvent: {}
+[15.523234] (-) TimerEvent: {}
+[15.624287] (-) TimerEvent: {}
+[15.725415] (-) TimerEvent: {}
+[15.828984] (-) TimerEvent: {}
+[15.930118] (-) TimerEvent: {}
+[16.031236] (-) TimerEvent: {}
+[16.132526] (-) TimerEvent: {}
+[16.190660] (materialdetect) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[16.194085] (materialdetect) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[16.197925] (materialdetect) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[16.201209] (materialdetect) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[16.203501] (materialdetect) StderrLine: {'line': b'\n'}
+[16.205538] (materialdetect) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[16.207364] (materialdetect) StderrLine: {'line': b'  any of the following names:\n'}
+[16.208886] (materialdetect) StderrLine: {'line': b'\n'}
+[16.210280] (materialdetect) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[16.211696] (materialdetect) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[16.213146] (materialdetect) StderrLine: {'line': b'\n'}
+[16.214551] (materialdetect) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[16.216769] (materialdetect) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[16.218883] (materialdetect) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[16.220892] (materialdetect) StderrLine: {'line': b'  has been installed.\n'}
+[16.223623] (materialdetect) StderrLine: {'line': b'\n'}
+[16.225892] (materialdetect) StderrLine: {'line': b'\x1b[0m\n'}
+[16.227944] (materialdetect) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[16.230279] (materialdetect) StdoutLine: {'line': b'See also "/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/CMakeOutput.log".\n'}
+[16.232621] (-) TimerEvent: {}
+[16.241358] (materialdetect) CommandEnded: {'returncode': 1}
+[16.332883] (-) TimerEvent: {}
+[16.434235] (-) TimerEvent: {}
+[16.535592] (-) TimerEvent: {}
+[16.603971] (materialdetect) JobEnded: {'identifier': 'materialdetect', 'rc': 1}
+[16.625772] (-) EventReactorShutdown: {}

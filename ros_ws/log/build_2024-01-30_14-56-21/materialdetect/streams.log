@@ -1,0 +1,33 @@
+[0.270s] Invoking command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages /usr/bin/cmake /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/materialdetect -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect
+[1.238s] -- The C compiler identification is GNU 11.4.0
+[2.341s] -- The CXX compiler identification is GNU 11.4.0
+[2.813s] -- Detecting C compiler ABI info
+[4.187s] -- Detecting C compiler ABI info - done
+[4.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.257s] -- Detecting C compile features
+[4.260s] -- Detecting C compile features - done
+[4.413s] -- Detecting CXX compiler ABI info
+[6.067s] -- Detecting CXX compiler ABI info - done
+[6.119s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.122s] -- Detecting CXX compile features
+[6.125s] -- Detecting CXX compile features - done
+[7.385s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[7.389s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[7.393s]   has asked CMake to find a package configuration file provided by
+[7.395s]   "ament_cmake", but CMake did not find one.
+[7.397s] 
+[7.399s]   Could not find a package configuration file provided by "ament_cmake" with
+[7.400s]   any of the following names:
+[7.402s] 
+[7.403s]     ament_cmakeConfig.cmake
+[7.405s]     ament_cmake-config.cmake
+[7.406s] 
+[7.408s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[7.410s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[7.412s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[7.415s]   has been installed.
+[7.417s] 
+[7.419s] [0m
+[7.421s] -- Configuring incomplete, errors occurred!
+[7.424s] See also "/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect/CMakeFiles/CMakeOutput.log".
+[7.435s] Invoked command in '/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/build/materialdetect' returned '1': AMENT_PREFIX_PATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub PYTHONPATH=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/py_pubsub/lib/python3.10/site-packages /usr/bin/cmake /mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/src/materialdetect -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/TexSort/Desktop/MasterThesis/materialdetectiontextile/ros_ws/install/materialdetect
