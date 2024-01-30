@@ -1,8 +1,0 @@
-source;share/materialdetect/hook/cmake_prefix_path.ps1
-source;share/materialdetect/hook/cmake_prefix_path.dsv
-source;share/materialdetect/hook/cmake_prefix_path.sh
-source;share/materialdetect/local_setup.bash
-source;share/materialdetect/local_setup.dsv
-source;share/materialdetect/local_setup.ps1
-source;share/materialdetect/local_setup.sh
-source;share/materialdetect/local_setup.zsh
